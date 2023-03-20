@@ -1,4 +1,5 @@
 # League-of-Legends-Winner-Predictor
+My exploratory data analysis on this data set can be found here : [The-Carry](https://ndxdxd.github.io/The-Carry/)
 
 ## Framing The Problem: Predicting if a Team will win or lose a game before the matcn ends.
 I'm building a binary classifier model that predicts the outcome of a game before it ends. To do this, I'll use a response variable called "results" that contains either a 1 or a 0, with 1 indicating that the team won and 0 indicating that they lost. I chose this variable because it provides a clear indication of the game's outcome.
