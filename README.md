@@ -45,8 +45,8 @@ Alt Hypothesis:  Our model is unfair. Its precision for teams that did not get f
 Test Statistic: Difference in Precisions
 Significance Level: 0.01
 
-<iframe src="assets/diffinprecision.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/diffinprecgraph.html" width=800 height=600 frameBorder=0></iframe>
 
 The result is a p value of 0.002.
-Since the p val = 0.002, this is less than my significance level of 0.01. This means that the null hypothesis is unlikely to be true, and I fail to accept the null hypothesis. Therefore, I have sufficient evidence supporting the alternative hypothesis that my model is unfair and that it SEEMS to be that our model is not fair with the precision of the model for teams that did not get first blood is around the less the precision of the model for teams that did get first blood.
+Since the p val = 0.002, this is less than my significance level of 0.01. This means that the null hypothesis is unlikely to be true, and I reject the null hypothesis. Therefore, I have sufficient evidence supporting the alternative hypothesis that my model seems to be unfair, that the precision of the model for teams that did not get first blood is less than precision for teams that did get first blood.
 
